@@ -1,2 +1,12 @@
-body{background-color: #E6E6FA;}
-h1,p{color: gold;}
+body {
+	background-color: #E6E6FA;
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(gold, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p { 
+	color: gold;
+}
