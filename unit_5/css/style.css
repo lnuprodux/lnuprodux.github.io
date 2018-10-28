@@ -1,0 +1,51 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Noticia+Text');
+</style>
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	color: white;
+	font-family: Helvetica, Arial;
+}
+
+header{
+	background-color: #FFED74;
+	margin: 10px 100px;
+	border: 1px black solid; 
+
+}
+
+h1{
+	font-family: 'Hind Madurai', sans-serif;
+	color: white;
+}
+
+nav{
+	font-family: 'Noticia Text', serif;
+	background-color: #E8C66A;
+	border: 1px black solid; 
+	margin: 10px;
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid; 
+	padding: 20px 500px 500px 20px; 
+	margin: 10px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid; 
+	margin: 10px;
+}
+
+
+#slogan{
+	font-style: italic;
+	font-size: 20px;
+}
