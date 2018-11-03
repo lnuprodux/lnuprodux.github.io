@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Noticia+Text');
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	color: white;
+	font-family: Helvetica, Arial;
+}
+
+header{
+	background-color: #FFED74;
+	margin: 10px 100px;
+	border: 1px black solid; 
+
+}
+
+h1{
+	font-family: 'Hind Madurai', sans-serif;
+	color: white;
+}
+
+nav{
+	font-family: 'Noticia Text', serif;
+	background-color: #E8C66A;
+	border: 1px black solid; 
+	margin: 10px;
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid; 
+	padding: 20px 500px 500px 20px; 
+	margin: 10px;
+}
+
+#two_column{
+	background-color: #FFB7FF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: #E582FF;
+	border: 1px black solid; 
+	padding: 20px; 
+	float: left;
+	width: 30%;
+}
+
+#right {
+    background-color: #E55BFF;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content:" ";
+	clear: both; 
+	height: 0; 
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid; 
+	margin: 10px;
+}
+
+
+#slogan{
+	font-style: italic;
+	font-size: 20px;
+}
