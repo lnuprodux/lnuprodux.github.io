@@ -38,6 +38,37 @@ section{
 	margin: 10px;
 }
 
+#two_column{
+	background-color: #FFB7FF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: #E582FF;
+	border: 1px black solid; 
+	padding: 20px; 
+	float: left;
+	width: 30%;
+}
+
+#right {
+    background-color: #E55BFF;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content:" ";
+	clear: both; 
+	height: 0; 
+}
+
 footer{
 	background-color: #FF957E;
 	border: 1px black solid; 
